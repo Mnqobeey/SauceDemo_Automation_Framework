@@ -1,10 +1,48 @@
-.idea/
+# Maven build output
 target/
-logs/
-drivers/
-WinDeedData/
+build/
+out/
+
+# Test reports and runtime artifacts
+reports/
+test-output/
+cucumber-reports/
+surefire-reports/
 screenshots/
-*.iml
+logs/
 *.log
+
+# Selenium/WebDriver binaries and downloads
+drivers/
+webdriver/
+*.har
+
+# IDE and editor files
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+*.iml
+
+# Java and tool caches
+*.class
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Local environment and secret files
+.env
+.env.*
+*.local
+*.pem
+*.key
+
+# OS files
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Local scratch folders
+WinDeedData/
+tmp/
+temp/

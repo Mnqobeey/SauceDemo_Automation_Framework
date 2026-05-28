@@ -12,7 +12,7 @@
     <description>Selenium and Cucumber UI automation for the SauceDemo checkout flow.</description>
 
     <properties>
-        <maven.compiler.release>17</maven.compiler.release>
+        <maven.compiler.release>25</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <selenium.version>4.15.0</selenium.version>
         <cucumber.version>7.15.0</cucumber.version>
